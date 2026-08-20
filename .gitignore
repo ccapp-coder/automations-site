@@ -1,0 +1,18 @@
+
+# --- hardened 2026-08-20: never commit secrets or local-only files ---
+.DS_Store
+.env
+.env.*
+!.env.example
+!.env.*.example
+.claude/settings.local.json
+*.p12
+*.cer
+*.pem
+*.mobileprovision
+*.jks
+*.keystore
+credentials/
+credentials.json
+*-token
+*.bak
