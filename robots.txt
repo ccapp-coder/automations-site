@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://automations.courtrightco.com/sitemap.xml
